@@ -1,0 +1,1 @@
+Конфигурация для проекта https://github.com/anatolii-larionov/netflix-maven-master

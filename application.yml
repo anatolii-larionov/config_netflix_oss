@@ -1,3 +1,4 @@
+# Работает без docker-compose. Если раскомитить, то при запуске docker-compose он не будет ссылаться на этот хост.
 #eureka:
 #  client:
 #    serviceUrl:
