@@ -1,2 +1,14 @@
 server:
   port: 9092
+
+spring:
+  kafka:
+    bootstrap-servers: '127.0.0.1:9092'
+    topic: employees
+
+integration:
+  dir:
+    path: "/data/employees/"
+    refresh: 30000
+    maxMessages: 5
+    fileDelimiter: ';'
