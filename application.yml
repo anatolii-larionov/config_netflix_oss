@@ -11,7 +11,7 @@ spring:
   datasource:
     platform: postgres
 #    url: jdbc:postgresql://172.17.0.1:5432/netflix_oss?currentSchema=netflix_oss
-    url: jdbc:postgresql://127.0.0.1:5001/netflix_oss?currentSchema=netflix_oss
+    url: jdbc:postgresql://127.0.0.1:5001/postgres?currentSchema=netflix_oss
     username: postgres
     password: 147258369
   jpa:
