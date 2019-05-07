@@ -1,8 +1,8 @@
-# Работает без docker-compose. Если раскомитить, то при запуске docker-compose он не будет ссылаться на этот хост.
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://127.0.0.1:8282/eureka
+ Работает без docker-compose. Если раскомитить, то при запуске docker-compose он не будет ссылаться на этот хост.
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8282/eureka
 
 spring:
   main:
