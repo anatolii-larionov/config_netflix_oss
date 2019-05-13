@@ -37,7 +37,7 @@ spring:
           contentType: application/json
 
 
-  kafka:
+kafka:
     bootstrapAddress: localhost:9092
 message:
     topic:
