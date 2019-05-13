@@ -42,11 +42,6 @@ app:
   topic:
     foo: foo.t
 
-logging:
-  level:
-    root: ERROR
-    org.springframework.web: ERROR
-    com.memorynotfound: DEBUG
 
 #  kafka:
 #    consumer:
